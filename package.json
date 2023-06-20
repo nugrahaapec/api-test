@@ -1,21 +1,19 @@
 {
   "name": "api2",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "bcrypt": "^5.1.0",
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "dotenv": "^16.1.4",
-    "express": "^4.18.2",
-    "fastest-validator": "^1.17.0",
-    "morgan": "~1.9.1",
-    "mysql2": "^3.3.4",
-    "nodemon": "^2.0.22",
-    "sequelize": "^6.32.0",
-    "sequelize-cli": "^6.6.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nugrahaapec/api-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nugrahaapec/api-test/issues"
+  },
+  "homepage": "https://github.com/nugrahaapec/api-test#readme"
 }
